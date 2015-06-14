@@ -142,15 +142,32 @@
   #group3 {
     z-index: 4; /* slide over group 2 and 4 */
   }
+  #group3 .parallax__layer--fore {
+    height: 150px;
+    top: 40%;
+    background: 
+      url(pictures.png) center no-repeat;
+  }
   #group3 .parallax__layer--base {
-    background: rgb(153,216,101);
+    background: 
+      url(band.jpg) center no-repeat 
+      black;
+    background-size: contain;
   }
 
   #group4 {
     z-index: 2; /* slide under group 3 and 5 */
   }
-  #group4 .parallax__layer--deep {
-    background: rgb(184,223,101);
+  #group4 .parallax__layer--base {
+    height: 200px;
+    top: 40%;
+    background: 
+      url(songs.png) center no-repeat;
+  }
+  #group4 .parallax__layer--back {
+    background: 
+      url(music-notes.jpg) center no-repeat
+      black;
   }
 
   #group5 {
@@ -160,17 +177,4 @@
     background: rgb(214,229,100);
   }
 
-  #group6 {
-    z-index: 2; /* slide under group 5 and 7 */
-  }
-  #group6 .parallax__layer--back {
-    background: rgb(245,235,100);
-  }
-
-  #group7 {
-    z-index: 3; /* slide over group 7 */
-  }
-  #group7 .parallax__layer--base {
-    background: rgb(255,241,100);
-  }
 
