@@ -130,11 +130,11 @@
   #group2 .parallax__layer--base {
     height: 100px;
     top: 50%;
-    background: 
+    background:
       url(live-shows.png) center no-repeat;
   }
   #group2 .parallax__layer--back {
-    background: 
+    background:
       url(stage-lights.jpg) center no-repeat
       black;
   }
@@ -145,12 +145,12 @@
   #group3 .parallax__layer--fore {
     height: 150px;
     top: 40%;
-    background: 
+    background:
       url(pictures.png) center no-repeat;
   }
   #group3 .parallax__layer--base {
-    background: 
-      url(band.jpg) center no-repeat 
+    background:
+      url(band.jpg) center no-repeat
       black;
     background-size: contain;
   }
@@ -161,11 +161,11 @@
   #group4 .parallax__layer--base {
     height: 200px;
     top: 40%;
-    background: 
+    background:
       url(songs.png) center no-repeat;
   }
   #group4 .parallax__layer--back {
-    background: 
+    background:
       url(music-notes.jpg) center no-repeat
       black;
   }
@@ -178,3 +178,17 @@
   }
 
 
+.mover {
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 100px;
+  z-index: 0;
+  animation: move 2s linear infinite alternate;
+}
+
+@keyframes move {
+  from { z-index: 0; transform: scale(1); }
+  to { z-index: 10; transform: scale(2.5); }
+}
