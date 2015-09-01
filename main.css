@@ -196,4 +196,42 @@
     padding-right: 20px;
   }
 
+  .songs-container {
+    background-color: black;
+    color: white;
+  }
+
+  .songs-container .header {
+    text-align: center;
+  }
+
+  .table-wrapper {
+    padding-left: 25%;
+  }
+
+  .full-body {
+    background-color: black;
+  }
+
+  table.songs {
+      display: table;
+      width: 100%;
+      border-collapse: collapse;
+  }
+  table.songs thead, table.songs tbody {
+      float: left;
+      width: 100%;
+  }
+  table.songs tbody {
+      overflow: auto;
+      height: 500px;
+  }
+  table.songs tr {
+      width: 100%;
+      display: table;
+      text-align: left;
+  }
+  table.songs th, table.songs td {
+      width: 33%;
+  }
 
