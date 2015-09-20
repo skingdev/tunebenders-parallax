@@ -122,7 +122,7 @@
   #group1 .parallax__layer--base {
     /*background: rgb(102,204,102);*/
     background:
-      url(tunebenders2.png) center/70% no-repeat
+      url(tunebenders2.png) center no-repeat
       black;
   }
   #group2 {
@@ -132,7 +132,7 @@
     height: 100px;
     top: 50%;
     background: 
-      url(live-shows.png) center/60% no-repeat;
+      url(live-shows.png) center/35% no-repeat;
   }
   #group2 .parallax__layer--back {
     background: 
@@ -147,7 +147,7 @@
     height: 150px;
     top: 40%;
     background: 
-      url(pictures.png) center/40% no-repeat;
+      url(pictures.png) center/35% no-repeat;
   }
   #group3 .parallax__layer--base {
     background: 
@@ -163,7 +163,7 @@
     height: 200px;
     top: 40%;
     background: 
-      url(songs.png) center/30% no-repeat;
+      url(songs.png) center/28% no-repeat;
   }
   #group4 .parallax__layer--back {
     background: 
@@ -176,7 +176,7 @@
     background-color: black;
   }
   #group5 .parallax__layer--base {
-    width: 60%;
+    width: 45%;
     /*width: 852px;*/
     margin: 0 auto;
     background: 
