@@ -111,7 +111,17 @@
     transform: translate(-50%, -50%);
   }
 
+  .content-live-shows-header img{
+    margin: 0 auto;
+    width: 30%;
+    display: block;
+  }
 
+  .content-songs-header img{
+    margin: 0 auto;
+    width: 20%;
+    display: block;
+  }
 
   /* style the groups
   --------------------------------------------- */
@@ -198,12 +208,12 @@
     padding-right: 20px;
   }
 
-  .songs-container {
+  .list-container {
     background-color: black;
     color: white;
   }
 
-  .songs-container .header {
+  .list-container .header {
     text-align: center;
   }
 
@@ -215,25 +225,28 @@
     background-color: black;
   }
 
-  table.songs {
+  table.list {
       display: table;
       width: 100%;
       border-collapse: collapse;
   }
-  table.songs thead, table.songs tbody {
+  table.list thead, table.list tbody {
       float: left;
       width: 100%;
   }
-  table.songs tbody {
+  table.list tbody {
       overflow: auto;
       height: 500px;
   }
-  table.songs tr {
+  table.list tr {
       width: 100%;
       display: table;
       text-align: left;
   }
-  table.songs th, table.songs td {
+  table.list th, table.list td {
       width: 33%;
   }
 
+ .live-shows {
+  height: 100px !important; 
+ }
