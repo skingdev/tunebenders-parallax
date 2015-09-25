@@ -111,6 +111,10 @@
     transform: translate(-50%, -50%);
   }
 
+  .header a img {
+    width: 60%;
+  }
+
   .content-live-shows-header img{
     margin: 0 auto;
     width: 30%;
@@ -132,7 +136,7 @@
   #group1 .parallax__layer--base {
     /*background: rgb(102,204,102);*/
     background:
-      url(tunebenders2.png) center no-repeat
+      url(tunebenders2.png) center/60% no-repeat
       black;
   }
   #group2 {
